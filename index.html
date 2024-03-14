@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-app</title>  
+    <link rel="stylesheet" href="output.css">       
+</head>
+<body class="bg-slate-700">
+    <div class="bg-white w-[90%] max-w-[600px] my-[100px] mx-auto rounded-lg p-[30px]  ">
+        <h1 class="italic mb-8 text-center text-[#162f57] text-4xl border-x-1">Quiz</h1>
+        <div>
+            <h2 id="question" class="text-2xl font-bold text-[#162f57] mb-[10px]"> Question</h2>
+            <div id="answer-buttons">
+                
+                <!-- <div class="text-lg rounded-lg border-2 border-gray-800 p-2 bg-white text-black w-[100%] p-3 mx-3 my-0 text-left cursor-pointer transition-all duration-300 hover:not([disabled])bg-violet-500 hover:not([disabled])text-white mb-4 hover:[disabled] cursor-no-drop">Answer 1</div>
+                 -->
+                 <div class="text-lg rounded-lg border-2 border-gray-800 p-2 bg-white text-black w-full p-3 mx-3 my-0 text-left cursor-pointer transition-all duration-300 hover:bg-violet-500 hover:text-white hover:cursor-pointer disabled:bg-transparent disabled:text-gray-400 disabled:cursor-not-allowed mb-4">Answer 1</div>
+                 <div class="text-lg rounded-lg border-2 border-gray-800 p-2 bg-white text-black w-full p-3 mx-3 my-0 text-left cursor-pointer transition-all duration-300 hover:bg-violet-500 hover:text-white hover:cursor-pointer disabled:bg-transparent disabled:text-gray-400 disabled:cursor-not-allowed mb-4">Answer 2</div>
+                 <div class="text-lg rounded-lg border-2 border-gray-800 p-2 bg-white text-black w-full p-3 mx-3 my-0 text-left cursor-pointer transition-all duration-300 hover:bg-violet-500 hover:text-white hover:cursor-pointer disabled:bg-transparent disabled:text-gray-400 disabled:cursor-not-allowed mb-4">Answer 3</div>
+                 <div class="text-lg rounded-lg border-2 border-gray-800 p-2 bg-white text-black w-full p-3 mx-3 my-0 text-left cursor-pointer transition-all duration-300 hover:bg-violet-500 hover:text-white hover:cursor-pointer disabled:bg-transparent disabled:text-gray-400 disabled:cursor-not-allowed mb-4">Answer 4</div>
+
+                <!-- <div class="text-lg rounded-lg border-2 border-gray-800 p-2 bg-white text-black w-[100%] p-3 mx-3 my-0 text-left cursor-pointer transition-all duration-300 hover:not([disabled])bg-violet-500 hover:not([disabled])text-white mb-4 hover:[disabled] cursor-no-drop">Answer 2</div>
+                
+                <div class="text-lg rounded-lg border-2 border-gray-800 p-2 bg-white text-black w-[100%] p-3 mx-3 my-0 text-left cursor-pointer transition-all duration-300 hover:not([disabled])bg-violet-500 hover:not([disabled])text-white mb-4 hover:[disabled] cursor-no-drop">Answer 3</div>
+                
+                <div class="text-lg rounded-lg border-2 border-gray-800 p-2 bg-white text-black w-[100%] p-3 mx-3 my-0 text-left cursor-pointer transition-all duration-300 hover:not([disabled])bg-violet-500 hover:not([disabled])text-white mb-4 hover:[disabled] cursor-no-drop">Answer 4</div>
+                 -->
+                
+            </div>
+            <!-- <button class="rounded-sm
+            border-3 border-black">Next</button>
+            -->
+            <button id="next-btn" class="rounded-sm border-4 p-1  bg-black text-white border-violet-700 hover:bg-white hover:text-black  hidden">Next</button>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
